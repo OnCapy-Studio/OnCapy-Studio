@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 15% 0px 15%;
-    padding: 50px 0px 50px 0px;
+    margin: 0px 20% 0px 20%;
+    padding: 150px 0px 100px 0px;
 }
 
 .home img{
@@ -28,6 +28,7 @@
     font-size: 18;
     font-weight: 400;
     margin-right: 10px;
+    width: 80%;
 }
 
 .home-content button{
@@ -56,6 +57,8 @@
     .home{
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        margin: 0px 15% 0px 15%;
+        padding: 80px 0px 50px 0px;
     }
 
     .home img {
