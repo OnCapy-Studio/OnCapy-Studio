@@ -1,0 +1,52 @@
+.values-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 20% 0px 20%;
+    padding: 150px 0px 100px 0px;
+}
+
+
+.values-title{
+    width: 160px;
+    color: #154657;
+}
+
+.values-card{
+    width: 200px;
+    height: 256px;
+}
+
+.values-card img{
+    width: 80px;
+    height: 80px;
+}
+
+.values-card h1{
+    font-size: 16px;
+    color: #154657;
+    font-weight: 600;
+    width: 120px;
+}
+
+.values-card p{
+    font-size: 14px;
+
+}
+
+@media (max-width: 800px){
+    .values-container{
+        margin: 0px 15% 0px 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .values-title{
+        text-align: center;
+    }
+
+    .values-card{
+        text-align: center;
+    }
+}

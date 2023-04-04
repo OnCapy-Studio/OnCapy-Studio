@@ -2,6 +2,7 @@ import Homepage from 'components/home';
 import './App.css';
 import Navbar from 'components/navbar';
 import AboutUs from 'components/about us';
+import Values from 'components/values';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Navbar></Navbar>
     <Homepage></Homepage>
     <AboutUs></AboutUs>
+    <Values></Values>
     </>
     
   );
