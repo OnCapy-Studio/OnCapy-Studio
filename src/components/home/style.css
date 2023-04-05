@@ -41,6 +41,10 @@
     
 }
 
+.home-content button:hover{
+    background-color: #154657;
+}
+
 .home-content a{
     color: white;
     font-size: 14px;

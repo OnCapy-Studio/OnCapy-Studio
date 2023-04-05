@@ -20,7 +20,7 @@ function Team(){
     return (
         <>
         
-        <div className='team-container'>
+        <div className='team-container' id='team'>
             <div className='team-carousel'>
             <Slider {...settings}>
                 <TeamCard name={'Felipe Sandes'} func={'Desenvolvedor Back-end'} img={John}></TeamCard>

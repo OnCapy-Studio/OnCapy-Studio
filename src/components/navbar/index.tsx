@@ -18,11 +18,11 @@ function Navbar(){
         <i className={"bi bi-list"} onClick={handleClick}></i>
         <nav id="navbar" className={click ? "navbar-active" : "dis"}>
             <i className={"bi bi-x"} onClick={handleClick}></i>
-            <a href="#" className="navbar-links" onClick={()=>{}}>Home</a>
-            <a href="#" className="navbar-links" onClick={()=>{}}>Sobre</a>
-            <a href="#" className="navbar-links" onClick={()=>{}}>Missão</a>
-            <a href="#" className="navbar-links" onClick={()=>{}}>Time</a>
-            <a href="#" className="navbar-links" onClick={()=>{}}>Contato</a>
+            <a href="#home" className="navbar-links" onClick={()=>{}}>Home</a>
+            <a href="#aboutUs" className="navbar-links" onClick={()=>{}}>Sobre</a>
+            <a href="#values" className="navbar-links" onClick={()=>{}}>Missão</a>
+            <a href="#team" className="navbar-links" onClick={()=>{}}>Time</a>
+            <a href="#contato" className="navbar-links" onClick={()=>{}}>Contato</a>
 
         </nav>
        </header>

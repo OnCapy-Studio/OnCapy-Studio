@@ -3,7 +3,7 @@ import './style.css';
 
 function AboutUs() {
   return (
-    <div className="aboutUs-container">
+    <div className="aboutUs-container" id="aboutUs">
       <div className="aboutUs-img">
       <img src={Img2} alt="Img2"></img>
       </div>

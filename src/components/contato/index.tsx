@@ -7,7 +7,7 @@ import './style.css';
 function Contato(){
     return(
         <>
-        <div className="contato-container">
+        <div className="contato-container" id='contato'>
             <div className="contato-content">
                 <h1>ENTRE EM CONTATO</h1>
                 <h1 className='contato-title-green'>CONOSCO</h1>

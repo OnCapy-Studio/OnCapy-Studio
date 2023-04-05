@@ -19,11 +19,11 @@ function Footer(){
 
             <div className='footer-section'>
                 <h1>NAVEGAÇÃO</h1>
-                <a href='#'>Home</a>
-                <a href='#'>Sobre</a>
-                <a href='#'>Missão</a>
-                <a href='#'>Time</a>
-                <a href='#'>Contato</a>
+                <a href='#home'>Home</a>
+                <a href='#aboutUs'>Sobre</a>
+                <a href='#values'>Missão</a>
+                <a href='#team'>Time</a>
+                <a href='#contato'>Contato</a>
             </div>
 
             <div className='footer-section'>

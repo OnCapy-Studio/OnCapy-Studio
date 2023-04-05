@@ -7,7 +7,7 @@ import "./style.css";
 function Values() {
   return (
     <>
-      <div className="values-container">
+      <div className="values-container" id="values">
         <div className="values-title">
           <h1>Missão e Valores</h1>
         </div>
