@@ -4,6 +4,8 @@ import Navbar from 'components/navbar';
 import AboutUs from 'components/about us';
 import Values from 'components/values';
 import Team from 'components/team';
+import Contato from 'components/contato';
+import Footer from 'components/footer';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
     <AboutUs></AboutUs>
     <Values></Values>
     <Team></Team>
+    <Contato></Contato>
+    <Footer></Footer>
     </>
     
   );
