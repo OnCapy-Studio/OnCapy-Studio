@@ -1,0 +1,18 @@
+.team-container{
+    background-color:  #154657;
+    
+}
+
+.team-carousel{
+    margin: 0px 15% 0px 15%;
+    padding: 70px 0px 70px 0px;
+}
+
+
+
+
+@media (max-width: 800px){
+    .team-carousel{
+        margin: 0px 10% 0px 10%;
+    }
+}

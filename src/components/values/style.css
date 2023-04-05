@@ -4,7 +4,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0px 20% 0px 20%;
-    padding: 150px 0px 100px 0px;
+    padding: 70px 0px 70px 0px;
 }
 
 
@@ -38,15 +38,24 @@
 @media (max-width: 800px){
     .values-container{
         margin: 0px 15% 0px 15%;
+        padding: 20px 0px 20px 0px;
         flex-direction: column;
         align-items: center;
     }
 
-    .values-title{
+    .values-title h1{
         text-align: center;
+        font-size: 24px;
     }
 
     .values-card{
         text-align: center;
+        margin: 10px 0px 10px 0px;
     }
+
+    .values-card h1{
+        width: 100%;
+    }
+
+    
 }
