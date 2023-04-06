@@ -1,18 +1,41 @@
-.team-container{
-    background-color:  #154657;
-    
+.team-container {
+  background-color: #154657;
+  padding: 50px 0px 120px 0px;
 }
 
-.team-carousel{
-    margin: 0px 15% 0px 15%;
-    padding: 70px 0px 70px 0px;
+.team-title{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.team-carousel {
+  margin: 0px 12% 0px 15%;
+
+  cursor: grab;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
 }
 
 
 
+@media (max-width: 800px) {
+  .team-carousel {
+    margin: 0px 10% 0px 10%;
+  }
 
-@media (max-width: 800px){
-    .team-carousel{
-        margin: 0px 10% 0px 10%;
-    }
+  .team-container {
+    padding: 50px 0px 100px 0px;
+  }
+
+  .team-title{
+    font-size: 24px;
+  }
 }

@@ -3,7 +3,9 @@
     height: 300px;
     background-color: white;
     border-radius: 20px;
+    margin-left: 15%;
 }
+
 
 .team-card-container img{
     width: 225px;
@@ -19,4 +21,6 @@
 .team-card-container p{
     font-size: 12px;
     margin-left: 20px;
+
 }
+
