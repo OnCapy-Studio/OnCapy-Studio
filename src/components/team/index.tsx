@@ -48,7 +48,7 @@ function Team(){
             <div className='team-carousel'>
             <Slider {...settings}>
                 <TeamCard name={'Felipe Sandes'} func={'Desenvolvedor Back-end'} img={John}></TeamCard>
-                <TeamCard name={'Kevin Cavalcanti'} func={'Desenvolvedor Mobile'} img={John}></TeamCard>
+                <TeamCard name={'Kevyn Cavalcanti'} func={'Desenvolvedor Mobile'} img={John}></TeamCard>
                 <TeamCard name={'Lucas Alves'} func={'Documentador'} img={John}></TeamCard>
                 <TeamCard name={'Murilo Santana'} func={'Desenvolvedor Front-end'} img={John}></TeamCard>
                 <TeamCard name={'Myrella Uchoa'} func={'Desenvolvedora Mobile'} img={John}></TeamCard>
