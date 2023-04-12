@@ -1,6 +1,6 @@
 import TeamCard from 'components/TeamCard';
 import './style.css';
-import John from 'assets/img/john.jpg';
+import John from 'assets/img/img_card.png';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
