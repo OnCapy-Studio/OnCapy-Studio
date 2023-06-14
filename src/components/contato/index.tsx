@@ -9,9 +9,9 @@ function Contato(){
         <>
         <div className="contato-container" id='contato'>
             <div className="contato-content">
-                <h1>ENTRE EM CONTATO</h1>
-                <h1 className='contato-title-green'>CONOSCO</h1>
-                <p>Iremos ajudar a solucionar o seu problema</p>
+                <h1>CONTACT</h1>
+                <h1 className='contato-title-green'>US</h1>
+                <p>We'll help solve your problem</p>
 
                 <div className="contato-item">
                     <img src={Br} alt=""></img>
@@ -20,7 +20,7 @@ function Contato(){
 
                 <div className="contato-item">
                     <img src={Wpp} alt=""></img>
-                    <p>+55 (11) 99999-9999</p>
+                    <p>+55 (11) 99444-9772</p>
                 </div>
 
                 <div className="contato-item">

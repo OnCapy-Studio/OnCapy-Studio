@@ -9,31 +9,30 @@ function Values() {
     <>
       <div className="values-container" id="values">
         <div className="values-title">
-          <h1>Missão e Valores</h1>
+          <h1>Mission and Values</h1>
         </div>
 
         <div className="values-card">
           <img src={Img3} alt=""></img>
-          <h1>VALORIZAÇÃO DA EDUCAÇÃO</h1>
+          <h1>VALORIZATION OF EDUCATION</h1>
           <p>
-            Promovemos a educação e oferecemos soluções para alcançar a
-            excelência acadêmica e realização pessoal.
+          We promote education and offer solutions to achieve academic excellence and personal fulfillment.
           </p>
         </div>
 
         <div className="values-card">
           <img src={Img2} alt=""></img>
-          <h1>TRANSPARÊNCIA E ÉTICA</h1>
+          <h1>TRANSPARENCY AND ETHICS</h1>
           <p>
-          Valorizamos a transparência e ética em nossas ações, estabelecendo relações de confiança com nossos clientes, parceiros e colaboradores.
+          We value transparency and ethics in our actions, establishing relationships of trust with our customers, partners and employees.
           </p>
         </div>
 
         <div className="values-card">
           <img src={Img1} alt=""></img>
-          <h1>INOVAÇÃO E QUALIDADE</h1>
+          <h1>INNOVATION AND QUALITY</h1>
           <p>
-          Investimos em tecnologia e melhoria contínua para oferecer soluções inovadoras e de alta qualidade que atendam às necessidades de nossos clientes de forma eficiente.
+          We invest in technology and continuous improvement to offer innovative, high-quality solutions that meet the needs of our customers efficiently.
           </p>
         </div>
       </div>

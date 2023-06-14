@@ -19,10 +19,10 @@ function Navbar(){
         <nav id="navbar" className={click ? "navbar-active" : "dis"}>
             <i className={"bi bi-x"} onClick={handleClick}></i>
             <a href="#home" className="navbar-links" onClick={()=>{}}>Home</a>
-            <a href="#aboutUs" className="navbar-links" onClick={()=>{}}>Sobre</a>
-            <a href="#values" className="navbar-links" onClick={()=>{}}>Missão</a>
-            <a href="#team" className="navbar-links" onClick={()=>{}}>Time</a>
-            <a href="#contato" className="navbar-links" onClick={()=>{}}>Contato</a>
+            <a href="#aboutUs" className="navbar-links" onClick={()=>{}}>About</a>
+            <a href="#values" className="navbar-links" onClick={()=>{}}>Mission</a>
+            <a href="#team" className="navbar-links" onClick={()=>{}}>Team</a>
+            <a href="#contato" className="navbar-links" onClick={()=>{}}>Contact</a>
 
         </nav>
        </header>

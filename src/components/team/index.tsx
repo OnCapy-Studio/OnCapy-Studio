@@ -1,6 +1,11 @@
 import TeamCard from 'components/TeamCard';
 import './style.css';
-import John from 'assets/img/img_card.png';
+import Kevin from 'assets/img/kevin.jpg';
+import Lucas from 'assets/img/lucas.jpg';
+import Felipe from 'assets/img/felipe.jpg';
+import Murilo from 'assets/img/murilo.jpg';
+import Myrella from 'assets/img/myrella.jpg';
+import Vinicius from 'assets/img/vinicius.jpg';
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -47,12 +52,12 @@ function Team(){
           <h1 className='team-title'>TEAM</h1>
             <div className='team-carousel'>
             <Slider {...settings}>
-                <TeamCard name={'Felipe Sandes'} func={'Desenvolvedor Back-end'} img={John}></TeamCard>
-                <TeamCard name={'Kevyn Cavalcanti'} func={'Desenvolvedor Mobile'} img={John}></TeamCard>
-                <TeamCard name={'Lucas Alves'} func={'Documentador'} img={John}></TeamCard>
-                <TeamCard name={'Murilo Santana'} func={'Desenvolvedor Front-end'} img={John}></TeamCard>
-                <TeamCard name={'Myrella Uchoa'} func={'Desenvolvedora Mobile'} img={John}></TeamCard>
-                <TeamCard name={'Vinicius Rodrigues'} func={'Product Owner'} img={John}></TeamCard>
+                <TeamCard name={'Felipe Sandes'} func={'Back-end developer'} img={Felipe}></TeamCard>
+                <TeamCard name={'Kevyn Cavalcanti'} func={'Mobile developer'} img={Kevin}></TeamCard>
+                <TeamCard name={'Lucas Alves'} func={'Documenter'} img={Lucas}></TeamCard>
+                <TeamCard name={'Murilo Santana'} func={'Front-end developer'} img={Murilo}></TeamCard>
+                <TeamCard name={'Myrella Uchoa'} func={'Mobile developer'} img={Myrella}></TeamCard>
+                <TeamCard name={'Vinicius Rodrigues'} func={'Product Owner'} img={Vinicius}></TeamCard>
                 
             </Slider>
             </div>

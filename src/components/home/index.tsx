@@ -7,8 +7,8 @@ function Homepage(){
             <div className="home-content">
                 <h1 className='home-title-blue'>OnCapy</h1>
                 <h1 className='home-title-green'>Studio</h1>
-                <p>A tecnologia é a nossa ferramenta para transformar o mundo, e nós estamos prontos para isso.</p>
-                <button><a href="#contato">SAIBA MAIS</a></button>
+                <p>Technology is our tool to transform the world, and we are ready for it.</p>
+                <button><a href="#contato">LEARN MORE</a></button>
             </div>
 
             <div className="home-img">

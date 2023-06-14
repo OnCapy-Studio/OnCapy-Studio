@@ -1,23 +1,23 @@
 import Img2 from "assets/img/img2.svg";
-import './style.css';
+import "./style.css";
 
 function AboutUs() {
   return (
     <div className="aboutUs-container" id="aboutUs">
       <div className="aboutUs-img">
-      <img src={Img2} alt="Img2"></img>
+        <img src={Img2} alt="Img2"></img>
       </div>
 
       <div className="aboutUs-content">
-        <h1>Sobre Nós</h1>
+        <h1>About Us</h1>
         <p>
-          Somos uma equipe de seis jovens apaixonados por tecnologia e inovação,
-          que juntos uniram forças para criar uma ferramenta que mudasse a vida
-          de diversos profissionais. Acreditamos que o desenvolvimento de
-          software é uma arte e uma ciência - a arte de criar experiências
-          digitais excepcionais e a ciência de garantir que essas experiências
-          sejam eficientes. Combinamos nossas habilidades únicas para criar
-          soluções que não apenas funcionem bem, mas também pareçam incríveis.
+          We are a team of six young people passionate about technology and
+          innovation, who together joined forces to create a tool that would
+          change the lives of several professionals. We believe that software
+          development is an art and a science – the art of creating exceptional
+          digital experiences and the science of ensuring those experiences are
+          efficient. We combine our unique skills to create solutions that not
+          only work well, but also look amazing.
         </p>
       </div>
     </div>

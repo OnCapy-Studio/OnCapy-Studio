@@ -1,5 +1,5 @@
 import './style.css';
-import Logo from 'assets/img/logo_1.png';
+import Logo from 'assets/img/logo_3.png';
 
 function Footer(){
     return(
@@ -18,22 +18,22 @@ function Footer(){
             </div>
 
             <div className='footer-section'>
-                <h1>NAVEGAÇÃO</h1>
+                <h1>NAVIGATION</h1>
                 <a href='#home'>Home</a>
-                <a href='#aboutUs'>Sobre</a>
-                <a href='#values'>Missão</a>
-                <a href='#team'>Time</a>
-                <a href='#contato'>Contato</a>
+                <a href='#aboutUs'>About</a>
+                <a href='#values'>Mission</a>
+                <a href='#team'>Team</a>
+                <a href='#contato'>Contact</a>
             </div>
 
             <div className='footer-section'>
-                <h1>PRODUTOS</h1>
+                <h1>PRODUCTS</h1>
                 <a href='#'>Skilloo</a>
             </div>
 
             <div className='footer-section'>
                 <h1>EMAIL</h1>
-                <p>Envie um e-mail para</p>
+                <p>Send an e-mail to</p>
                 <h6>oncapy.studio@gmail.com</h6>
             </div>
         </div>
